@@ -41,6 +41,22 @@ int main()
 	printf("%d\n",ans);
 }
 ```
+## 找倍數
+```c++
+#include<stdio.h>
+int main()
+{
+	int a[10];
+	int ans=0;
+	
+	for(int i=0; i<10; i++){
+		scanf("%d", &a[i]);
+		if(a[i]%3==0) ans = ans + 1 ;
+		}
+	
+	printf("%d\n",ans);
+}
+```
 ## 整數轉換為等級 
 ```c++
 #include<stdio.h>
